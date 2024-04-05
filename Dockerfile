@@ -25,7 +25,7 @@ EXPOSE 8080
 WORKDIR /app
 
 # Копирование собранного JAR-файла из стадии сборки
-COPY —from=build /app/target/*.jar app.jar
+COPY --from=build /app/target/*.jar app.jar
 
 # Команда для запуска приложения
 ENTRYPOINT ["java", "-jar", "app.jar"]
