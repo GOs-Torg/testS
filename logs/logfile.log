@@ -17431,3 +17431,23 @@
 2024-04-05 10:28:40 INFO  c.e.pixelapi.PixelApiApplication - No active profile set, falling back to 1 default profile: "default"
 2024-04-05 10:28:43 INFO  c.e.pixelapi.PixelApiApplication - Started PixelApiApplication in 3.351 seconds (process running for 6.736)
 2024-04-05 10:28:43 INFO  c.e.pixelapi.shedules.BackupSchedule - Created File
+2024-04-05 12:45:19 INFO  c.e.pixelapi.PixelApiApplication - Starting PixelApiApplication using Java 19.0.2 with PID 11036 (C:\Users\pavel\OneDrive\Рабочий стол\DIplob\PixelAPI\target\classes started by pavel in C:\Users\pavel\OneDrive\Рабочий стол\DIplob\PixelAPI)
+2024-04-05 12:45:19 DEBUG c.e.pixelapi.PixelApiApplication - Running with Spring Boot v3.1.5, Spring v6.0.13
+2024-04-05 12:45:19 INFO  c.e.pixelapi.PixelApiApplication - No active profile set, falling back to 1 default profile: "default"
+2024-04-05 12:47:13 INFO  c.e.pixelapi.PixelApiApplication - Starting PixelApiApplication using Java 19.0.2 with PID 15748 (C:\Users\pavel\OneDrive\Рабочий стол\DIplob\PixelAPI\target\classes started by pavel in C:\Users\pavel\OneDrive\Рабочий стол\DIplob\PixelAPI)
+2024-04-05 12:47:13 DEBUG c.e.pixelapi.PixelApiApplication - Running with Spring Boot v3.1.5, Spring v6.0.13
+2024-04-05 12:47:13 INFO  c.e.pixelapi.PixelApiApplication - No active profile set, falling back to 1 default profile: "default"
+2024-04-05 12:50:12 INFO  c.e.pixelapi.PixelApiApplication - Starting PixelApiApplication using Java 19.0.2 with PID 21852 (C:\Users\pavel\OneDrive\Рабочий стол\DIplob\PixelAPI\target\classes started by pavel in C:\Users\pavel\OneDrive\Рабочий стол\DIplob\PixelAPI)
+2024-04-05 12:50:12 DEBUG c.e.pixelapi.PixelApiApplication - Running with Spring Boot v3.1.5, Spring v6.0.13
+2024-04-05 12:50:12 INFO  c.e.pixelapi.PixelApiApplication - No active profile set, falling back to 1 default profile: "default"
+2024-04-05 12:51:04 INFO  c.e.pixelapi.PixelApiApplication - Starting PixelApiApplication using Java 19.0.2 with PID 17368 (C:\Users\pavel\OneDrive\Рабочий стол\DIplob\PixelAPI\target\classes started by pavel in C:\Users\pavel\OneDrive\Рабочий стол\DIplob\PixelAPI)
+2024-04-05 12:51:04 DEBUG c.e.pixelapi.PixelApiApplication - Running with Spring Boot v3.1.5, Spring v6.0.13
+2024-04-05 12:51:04 INFO  c.e.pixelapi.PixelApiApplication - No active profile set, falling back to 1 default profile: "default"
+2024-04-05 12:51:38 INFO  c.e.pixelapi.PixelApiApplication - Starting PixelApiApplication using Java 19.0.2 with PID 22852 (C:\Users\pavel\OneDrive\Рабочий стол\DIplob\PixelAPI\target\classes started by pavel in C:\Users\pavel\OneDrive\Рабочий стол\DIplob\PixelAPI)
+2024-04-05 12:51:38 DEBUG c.e.pixelapi.PixelApiApplication - Running with Spring Boot v3.1.5, Spring v6.0.13
+2024-04-05 12:51:38 INFO  c.e.pixelapi.PixelApiApplication - No active profile set, falling back to 1 default profile: "default"
+2024-04-05 12:51:51 INFO  c.e.pixelapi.PixelApiApplication - Started PixelApiApplication in 13.751 seconds (process running for 15.489)
+2024-04-05 12:51:51 WARN  c.e.pixelapi.shedules.BackupSchedule - SQL Error
+2024-04-05 12:52:20 INFO  c.e.pixelapi.PixelApiApplication - Starting PixelApiApplication using Java 19.0.2 with PID 18968 (C:\Users\pavel\OneDrive\Рабочий стол\DIplob\PixelAPI\target\classes started by pavel in C:\Users\pavel\OneDrive\Рабочий стол\DIplob\PixelAPI)
+2024-04-05 12:52:20 DEBUG c.e.pixelapi.PixelApiApplication - Running with Spring Boot v3.1.5, Spring v6.0.13
+2024-04-05 12:52:20 INFO  c.e.pixelapi.PixelApiApplication - No active profile set, falling back to 1 default profile: "default"

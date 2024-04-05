@@ -154,6 +154,3 @@ CREATE TABLE IF NOT EXISTS `appointment_students` (
     CONSTRAINT `student_id_lesson` FOREIGN KEY (`student_id`) REFERENCES `Student` (`id_student`) ON DELETE RESTRICT ON UPDATE RESTRICT
     ) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
-
-CREATE OR REPLACE VIEW `fullappointment` AS select `appointment`.`id_appointment` AS `id_appointment`,concat(`sgroups`.`name`,' ',`sgroups`.`module_num`) AS `name`,`appointment`.`lesson` AS `lesson`,`appointment`.`hours` AS `hours`,`appointment`.`minutes` AS `minutes`,`appointment`.`day` AS `day`,`appointment`.`date` AS `date`,`appointment`.`max_users` AS `max_users`,`appointment`.`teacher_id` AS `teacher_id`,(select count(`appointment_students`.`student_id`) from `appointment_students` where (`appointment_students`.`appointment_id` = `appointment`.`id_appointment`)) AS `active_num`,concat(`employee`.`second_name`,' ',`employee`.`first_name`,' ',`employee`.`middle_name`) AS `employee_name`,`appointment`.`sgroup_id` AS `sgroup_id` from (((`appointment` join `employee` on((`employee`.`id_employee` = `appointment`.`teacher_id`))) join `region` on((`region`.`id_region` = `employee`.`region_id`))) join `sgroups` on((`sgroups`.`id_group` = `appointment`.`sgroup_id`)));
-
