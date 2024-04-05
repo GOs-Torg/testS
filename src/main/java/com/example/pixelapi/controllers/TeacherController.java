@@ -178,6 +178,9 @@ public class TeacherController {
             }
         }
     }
+    public void afdaho_faoij3q(){
+
+    }
     @GetMapping("/GetAllProfiles")
     public List<ProfileModel> GetAllProfiles() throws SQLException {
         ResultSet setStudent = db.selectFromTable("Student", Student.class);
