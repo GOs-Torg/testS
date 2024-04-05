@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+  mysql:
+    image: mysql:latest
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: "root"
+      MYSQL_DATABASE: "PixelSchool"
+      MYSQL_USER: "test"
+      MYSQL_PASSWORD: "1111"
+
+  spring-boot-app:
+    build: .
+    ports:
+      - "27004:27004"
+    depends_on:
+      - mysql
