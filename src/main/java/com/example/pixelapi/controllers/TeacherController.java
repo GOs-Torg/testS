@@ -178,7 +178,7 @@ public class TeacherController {
             }
         }
     }
-    public void afdaho_faoij3q(){
+    public void 13daho_faoij3q(){
 
     }
     @GetMapping("/GetAllProfiles")
